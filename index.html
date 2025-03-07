@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Gooty - Official Town Website</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta name="description" content="Official website for Gooty town. Explore local businesses, services, history, and events.">
+</head>
+<body>
+  <!-- Header with Navigation -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">
+          <h1>Gooty</h1>
+        </a>
+      </div>
+      <nav class="main-nav">
+        <button class="menu-toggle" id="menuToggle">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="businesses.html">Businesses</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="history.html">History</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="images\gooty img.jpg" alt="gooty img">
+    <div class="hero-content">
+      
+      <h1>Welcome to Gooty</h1>
+      <p>Discover our beautiful town, local businesses, and services</p>
+      <div class="cta-buttons">
+        <a href="businesses.html" class="btn btn-primary">Explore Businesses</a>
+        <a href="services.html" class="btn btn-secondary">Discover Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Business Section with Horizontal Scrolling -->
+  <section class="section businesses-section">
+    <div class="container">
+      <h2 class="section-title">Local Businesses</h2>
+      <div class="scroll-container">
+        <button class="scroll-btn left" id="businessScrollLeft">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="horizontal-scroll" id="businessScroll">
+          <!-- Business Cards -->
+          <div class="card">
+            <div class="card-image">
+              <img src="images/vegetables.jpg" alt="Vegetable Shop">
+            </div>
+            <div class="card-content">
+              <h3>Vegetable Shops</h3>
+              <p>Fresh local produce</p>
+              <a href="vegetables.html" class="btn btn-small">View All</a>
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="card-image">
+              <img src="images/fruits.jpg" alt="Fruit Shop">
+            </div>
+            <div class="card-content">
+              <h3>Fruit Shops</h3>
+              <p>Seasonal fruits</p>
+              <a href="fruits.html" class="btn btn-small">View All</a>
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="card-image">
+              <img src="images/mechanic.jpg" alt="Mechanic Shop">
+            </div>
+            <div class="card-content">
+              <h3>Mechanic Shops</h3>
+              <p>Vehicle repairs & services</p>
+              <a href="mechanics.html" class="btn btn-small">View All</a>
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="card-image">
+              <img src="images/barber.jpg" alt="Barber Shop">
+            </div>
+            <div class="card-content">
+              <h3>Barber Shops</h3>
+              <p>Haircuts & styling</p>
+              <a href="barbers.html" class="btn btn-small">View All</a>
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="card-image">
+              <img src="images/electronics.jpg" alt="Electronics Shop">
+            </div>
+            <div class="card-content">
+              <h3>Electronics Shops</h3>
+              <p>Gadgets & appliances</p>
+              <a href="electronics.html" class="btn btn-small">View All</a>
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="card-image">
+              <img src="images/medical.jpg" alt="Medical Shop">
+            </div>
+            <div class="card-content">
+              <h3>Medical Shops</h3>
+              <p>Medicines & healthcare</p>
+              <a href="medical.html" class="btn btn-small">View All</a>
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="card-image">
+              <img src="images/hospital.jpg" alt="Hospital">
+            </div>
+            <div class="card-content">
+              <h3>Hospitals</h3>
+              <p>Healthcare facilities</p>
+              <a href="hospitals.html" class="btn btn-small">View All</a>
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="card-image">
+              <img src="images/furniture.jpg" alt="Furniture Store">
+            </div>
+            <div class="card-content">
+              <h3>Furniture Stores</h3>
+              <p>Home & office furniture</p>
+              <a href="furniture.html" class="btn btn-small">View All</a>
+            </div>
+          </div>
+          
+          <!-- Add more business categories here -->
+        </div>
+        <button class="scroll-btn right" id="businessScrollRight">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+      <div class="view-all-container">
+        <a href="businesses.html" class="btn btn-outline">View All Businesses</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Shops Section with Horizontal Scrolling -->
+  <section class="section shops-section">
+    <div class="container">
+      <h2 class="section-title">Local Shops</h2>
+      <div class="scroll-container">
+        <button class="scroll-btn left" id="shopScrollLeft">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="horizontal-scroll" id="shopScroll">
+          <!-- Shop Cards -->
+          <div class="card">
+            <div class="card-image">
+              <img src="images/grocery.jpg" alt="Grocery Store">
+            </div>
+            <div class="card-content">
+              <h3>Grocery Stores</h3>
+              <p>Daily essentials</p>
+              <a href="grocery.html" class="btn btn-small">View All</a>
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="card-image">
+              <img src="images/clothing.jpg" alt="Clothing Store">
+            </div>
+            <div class="card-content">
+              <h3>Clothing Stores</h3>
+              <p>Fashion & apparel</p>
+              <a href="clothing.html" class="btn btn-small">View All</a>
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="card-image">
+              <img src="images/bakery.jpg" alt="Bakery">
+            </div>
+            <div class="card-content">
+              <h3>Bakeries</h3>
+              <p>Fresh bread & pastries</p>
+              <a href="bakeries.html" class="btn btn-small">View All</a>
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="card-image">
+              <img src="images/stationery.jpg" alt="Stationery Shop">
+            </div>
+            <div class="card-content">
+              <h3>Stationery Shops</h3>
+              <p>Office & school supplies</p>
+              <a href="stationery.html" class="btn btn-small">View All</a>
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="card-image">
+              <img src="images/jewelry.jpg" alt="Jewelry Shop">
+            </div>
+            <div class="card-content">
+              <h3>Jewelry Shops</h3>
+              <p>Gold & silver jewelry</p>
+              <a href="jewelry.html" class="btn btn-small">View All</a>
+            </div>
+          </div>
+          
+          <!-- Add more shop categories here -->
+        </div>
+        <button class="scroll-btn right" id="shopScrollRight">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+      <div class="view-all-container">
+        <a href="businesses.html" class="btn btn-outline">View All Shops</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events Section -->
+  <section class="section events-section">
+    <div class="container">
+      <h2 class="section-title">Local Events & Updates</h2>
+      <div class="events-grid">
+        <div class="event-card">
+          <div class="event-date">
+            <span class="day">15</span>
+            <span class="month">Aug</span>
+          </div>
+          <div class="event-details">
+            <h3>Independence Day Celebration</h3>
+            <p class="event-location"><i class="fas fa-map-marker-alt"></i> Town Square</p>
+            <p class="event-time"><i class="fas fa-clock"></i> 9:00 AM - 12:00 PM</p>
+            <p class="event-description">Join us for flag hoisting and cultural performances to celebrate India's Independence Day.</p>
+          </div>
+        </div>
+        
+        <div class="event-card">
+          <div class="event-date">
+            <span class="day">20</span>
+            <span class="month">Aug</span>
+          </div>
+          <div class="event-details">
+            <h3>Farmers Market</h3>
+            <p class="event-location"><i class="fas fa-map-marker-alt"></i> Community Center</p>
+            <p class="event-time"><i class="fas fa-clock"></i> 8:00 AM - 2:00 PM</p>
+            <p class="event-description">Local farmers will be selling fresh produce, dairy products, and handmade crafts.</p>
+          </div>
+        </div>
+        
+        <div class="event-card">
+          <div class="event-date">
+            <span class="day">25</span>
+            <span class="month">Aug</span>
+          </div>
+          <div class="event-details">
+            <h3>Health Camp</h3>
+            <p class="event-location"><i class="fas fa-map-marker-alt"></i> Government Hospital</p>
+            <p class="event-time"><i class="fas fa-clock"></i> 10:00 AM - 4:00 PM</p>
+            <p class="event-description">Free health check-ups and consultations with specialists.</p>
+          </div>
+        </div>
+        
+        <!-- Add more events here -->
+      </div>
+      <div class="view-all-container">
+        <a href="events.html" class="btn btn-outline">View All Events</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Emergency Contacts Section -->
+  <section class="section emergency-section">
+    <div class="container">
+      <h2 class="section-title">Emergency Contacts</h2>
+      <div class="emergency-grid">
+        <div class="emergency-card">
+          <div class="emergency-icon">
+            <i class="fas fa-ambulance"></i>
+          </div>
+          <h3>Ambulance</h3>
+          <p class="phone-number">108</p>
+        </div>
+        
+        <div class="emergency-card">
+          <div class="emergency-icon">
+            <i class="fas fa-fire-extinguisher"></i>
+          </div>
+          <h3>Fire Service</h3>
+          <p class="phone-number">101</p>
+        </div>
+        
+        <div class="emergency-card">
+          <div class="emergency-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3>Police</h3>
+          <p class="phone-number">100</p>
+        </div>
+        
+        <div class="emergency-card">
+          <div class="emergency-icon">
+            <i class="fas fa-hospital"></i>
+          </div>
+          <h3>Government Hospital</h3>
+          <p class="phone-number">+91 9876543210</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section about">
+          <h3>About Gooty</h3>
+          <p>Gooty is a historic town known for its fort and vibrant community. This website aims to connect residents and visitors with local businesses and services.</p>
+        </div>
+        
+        <div class="footer-section links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="businesses.html">Businesses</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section contact">
+          <h3>Contact Us</h3>
+          <p><i class="fas fa-envelope"></i> info@gootytown.com</p>
+          <p><i class="fas fa-phone"></i> +91 9876543210</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Gooty Town Website. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

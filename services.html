@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services in Gooty - Official Town Website</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta name="description" content="Find local services in Gooty town. Electricians, painters, contractors, and more.">
+</head>
+<body>
+  <!-- Header with Navigation -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">
+          <h1>Gooty</h1>
+        </a>
+      </div>
+      <nav class="main-nav">
+        <button class="menu-toggle" id="menuToggle">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="businesses.html">Businesses</a></li>
+          <li><a href="services.html" class="active">Services</a></li>
+          <li><a href="history.html">History</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Title -->
+  <section class="page-title">
+    <div class="container">
+      <h1>Services in Gooty</h1>
+      <p>Find reliable service providers in our town</p>
+    </div>
+  </section>
+
+  <!-- Search Section -->
+  <section class="search-section">
+    <div class="container">
+      <div class="search-container">
+        <input type="text" id="serviceSearch" placeholder="Search services...">
+        <button id="searchButton"><i class="fas fa-search"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Categories -->
+  <section class="section categories-section">
+    <div class="container">
+      <h2 class="section-title">Service Categories</h2>
+      <div class="categories-grid" id="serviceCategories">
+        <!-- Service Categories -->
+        <div class="category-card" data-category="laundry">
+          <div class="category-icon">
+            <i class="fas fa-tshirt"></i>
+          </div>
+          <h3>Laundry Services</h3>
+          <p>Washing & dry cleaning</p>
+          <a href="laundry.html" class="btn btn-small">View All</a>
+        </div>
+        
+        <div class="category-card" data-category="electricians">
+          <div class="category-icon">
+            <i class="fas fa-bolt"></i>
+          </div>
+          <h3>Electricians</h3>
+          <p>Electrical repairs & installations</p>
+          <a href="electricians.html" class="btn btn-small">View All</a>
+        </div>
+        
+        <div class="category-card" data-category="contractors">
+          <div class="category-icon">
+            <i class="fas fa-hard-hat"></i>
+          </div>
+          <h3>Contractors</h3>
+          <p>Construction & renovation</p>
+          <a href="contractors.html" class="btn btn-small">View All</a>
+        </div>
+        
+        <div class="category-card" data-category="housebrokers">
+          <div class="category-icon">
+            <i class="fas fa-home"></i>
+          </div>
+          <h3>House Brokers</h3>
+          <p>Real estate services</p>
+          <a href="housebrokers.html" class="btn btn-small">View All</a>
+        </div>
+        
+        <div class="category-card" data-category="loanbrokers">
+          <div class="category-icon">
+            <i class="fas fa-money-bill-wave"></i>
+          </div>
+          <h3>Loan Brokers</h3>
+          <p>Financial services</p>
+          <a href="loanbrokers.html" class="btn btn-small">View All</a>
+        </div>
+        
+        <div class="category-card" data-category="painters">
+          <div class="category-icon">
+            <i class="fas fa-paint-roller"></i>
+          </div>
+          <h3>Painters</h3>
+          <p>Home & office painting</p>
+          <a href="painters.html" class="btn btn-small">View All</a>
+        </div>
+        
+        <!-- Add more service categories here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section about">
+          <h3>About Gooty</h3>
+          <p>Gooty is a historic town known for its fort and vibrant community. This website aims to connect residents and visitors with local businesses and services.</p>
+        </div>
+        
+        <div class="footer-section links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="businesses.html">Businesses</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section contact">
+          <h3>Contact Us</h3>
+          <p><i class="fas fa-envelope"></i> info@gootytown.com</p>
+          <p><i class="fas fa-phone"></i> +91 9876543210</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Gooty Town Website. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/services.js"></script>
+</body>
+</html>

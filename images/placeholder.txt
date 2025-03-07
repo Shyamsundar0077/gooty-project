@@ -1,0 +1,27 @@
+This file is a placeholder for the images directory.
+
+The following images should be added to this directory:
+- gooty-fort.jpg (for the hero section background)
+- vegetables.jpg
+- fruits.jpg
+- mechanic.jpg
+- barber.jpg
+- electronics.jpg
+- medical.jpg
+- hospital.jpg
+- furniture.jpg
+- grocery.jpg
+- clothing.jpg
+- bakery.jpg
+- stationery.jpg
+- jewelry.jpg
+- electronics-shop1.jpg
+- electronics-shop2.jpg
+- electronics-shop3.jpg
+- electrician1.jpg
+- electrician2.jpg
+- electrician3.jpg
+- gooty-fort-historic.jpg
+
+For development purposes, the website uses placeholder images via the createPlaceholderImages() function in main.js.
+In a production environment, replace these with actual images of Gooty town.

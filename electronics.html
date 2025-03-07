@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electronics Shops in Gooty - Official Town Website</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta name="description" content="Find electronics shops in Gooty town. Gadgets, appliances, and more.">
+</head>
+<body>
+  <!-- Header with Navigation -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">
+          <h1>Gooty</h1>
+        </a>
+      </div>
+      <nav class="main-nav">
+        <button class="menu-toggle" id="menuToggle">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="businesses.html" class="active">Businesses</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="history.html">History</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Title -->
+  <section class="page-title">
+    <div class="container">
+      <h1>Electronics Shops in Gooty</h1>
+      <p>Find the best electronics stores in town</p>
+    </div>
+  </section>
+
+  <!-- Search Section -->
+  <section class="search-section">
+    <div class="container">
+      <div class="search-container">
+        <input type="text" id="listingSearch" placeholder="Search electronics shops...">
+        <button id="searchButton"><i class="fas fa-search"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Business Listings -->
+  <section class="section listings-section">
+    <div class="container">
+      <div class="listings-grid" id="businessListings">
+        <!-- Electronics Shop Listings -->
+        <div class="listing-card">
+          <div class="listing-image">
+            <img src="images/electronics-shop1.jpg" alt="Gooty Electronics">
+          </div>
+          <div class="listing-content">
+            <h3>Gooty Electronics</h3>
+            <p class="listing-address"><i class="fas fa-map-marker-alt"></i> 123 Main Street, Gooty</p>
+            <p class="listing-phone"><i class="fas fa-phone"></i> +91 9876543210</p>
+            <p class="listing-description">Wide range of electronics, computers, and mobile phones. Authorized dealer for major brands.</p>
+            <div class="listing-actions">
+              <a href="https://maps.google.com/?q=Gooty+Electronics" target="_blank" class="btn btn-small"><i class="fas fa-map-marked-alt"></i> View on Map</a>
+              <a href="tel:+919876543210" class="btn btn-small"><i class="fas fa-phone"></i> Call Now</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="listing-card">
+          <div class="listing-image">
+            <img src="images/electronics-shop2.jpg" alt="Digital World">
+          </div>
+          <div class="listing-content">
+            <h3>Digital World</h3>
+            <p class="listing-address"><i class="fas fa-map-marker-alt"></i> 456 Market Road, Gooty</p>
+            <p class="listing-phone"><i class="fas fa-phone"></i> +91 9876543211</p>
+            <p class="listing-description">Specializes in laptops, desktops, and computer accessories. Repair services available.</p>
+            <div class="listing-actions">
+              <a href="https://maps.google.com/?q=Digital+World+Gooty" target="_blank" class="btn btn-small"><i class="fas fa-map-marked-alt"></i> View on Map</a>
+              <a href="tel:+919876543211" class="btn btn-small"><i class="fas fa-phone"></i> Call Now</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="listing-card">
+          <div class="listing-image">
+            <img src="images/electronics-shop3.jpg" alt="Mobile Zone">
+          </div>
+          <div class="listing-content">
+            <h3>Mobile Zone</h3>
+            <p class="listing-address"><i class="fas fa-map-marker-alt"></i> 789 Station Road, Gooty</p>
+            <p class="listing-phone"><i class="fas fa-phone"></i> +91 9876543212</p>
+            <p class="listing-description">Latest smartphones, accessories, and repair services. All major brands available.</p>
+            <div class="listing-actions">
+              <a href="https://maps.google.com/?q=Mobile+Zone+Gooty" target="_blank" class="btn btn-small"><i class="fas fa-map-marked-alt"></i> View on Map</a>
+              <a href="tel:+919876543212" class="btn btn-small"><i class="fas fa-phone"></i> Call Now</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Add more electronics shops here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section about">
+          <h3>About Gooty</h3>
+          <p>Gooty is a historic town known for its fort and vibrant community. This website aims to connect residents and visitors with local businesses and services.</p>
+        </div>
+        
+        <div class="footer-section links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="businesses.html">Businesses</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section contact">
+          <h3>Contact Us</h3>
+          <p><i class="fas fa-envelope"></i> info@gootytown.com</p>
+          <p><i class="fas fa-phone"></i> +91 9876543210</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Gooty Town Website. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/listings.js"></script>
+</body>
+</html>
